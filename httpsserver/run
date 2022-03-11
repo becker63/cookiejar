@@ -1,0 +1,7 @@
+#/bin/bash
+#cd /home/becker/code/cookiejar/httpsclient && gcc httpsclient.c -o httpsclient -lssl -lcrypto && python3 -c 'print("\n" * 10)' && ./httpsclient
+
+if [ "$1" == "c" ]
+  then 
+  cd /home/becker/code/cookiejar/httpsclient && gcc httpsclient.c -o httpsclient -lssl -lcrypto && python3 -c 'print("\n" * 10)' && ./httpsclient
+fi

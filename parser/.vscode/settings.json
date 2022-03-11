@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact",
+        "numbers": "c",
+        "stdio.h": "c",
+        "aho_trie.h": "c"
+    }
+}
